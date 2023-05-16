@@ -1,6 +1,6 @@
 require './nameable'
 
-class Person
+class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age
 
@@ -18,7 +18,7 @@ class Person
   end
 
   def correct_name
-    @name
+    name
   end
 
   private
