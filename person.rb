@@ -5,6 +5,7 @@ class Person < Nameable
   attr_accessor :name, :age
 
   def initialize(age, name = 'unknown', parent_permission: true)
+    super()
     @id = id
     @name = name
     @age = age
