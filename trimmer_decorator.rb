@@ -8,4 +8,3 @@ class Trim < BaseDecorator
     @trim.slice(0, 10)
   end
 end
-
