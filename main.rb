@@ -11,7 +11,7 @@ def list_options
     7 - Exit'
 end
 
-def option(option, app) # rubocop:disable Metrics/CyclomaticComplexity
+def option( app) # rubocop:disable Metrics/CyclomaticComplexity
   case option
   when 1
     app.list_books
